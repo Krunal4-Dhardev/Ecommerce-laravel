@@ -13,6 +13,7 @@
 </head>
 <body>
     {{View::make('header')}}
+    
     @yield("content")
 
     {{View::make('footer')}}
@@ -22,6 +23,46 @@
     .custom-login{
         height:500px;
         padding-top:100px;
+    }
+    img.slider-img
+    {
+        height:350px !important
+    }
+    .custom-product
+    {
+        height:80%;
+    }
+    .slider-text
+    {
+        background-color:#35443585 !important;
+        width:600px;
+        margin-left:300px;
+        /* text-align:center; */
+    }
+    .container
+    {
+        width:98%;
+    }
+    .tranding-img
+    {
+        height:100px;
+    }
+    .tranding-item
+    {
+        float:left;
+        width:20%;
+    }
+    .detail-img
+    {
+        height:200px;
+    }
+    .tranding-wrapper
+    {
+        margin:30px;
+    }
+    .search-box
+    {
+        width:500px !important;
     }
 </style>
 </html>
